@@ -25,6 +25,7 @@ namespace Foo.Bar
 
         }
         
+        // TODO - Does this need to be non-default?
         public Response DoThing (RequestContent body, OptionsBag options = default) => null;
         public Response CheckThing (OptionsBag options = default) => null;
 
